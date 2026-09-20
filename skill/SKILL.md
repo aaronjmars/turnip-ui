@@ -1,18 +1,19 @@
 ---
-name: plush-ui
+name: turnip-ui
 description: >
-  Build product UI in the plush farm visual language: cool-gray canvas, Nunito
-  extra-bold, 3D mascot heroes, magenta pill CTAs, cream selection cards,
-  whisper borders, centered 920px column. Use when the user says plush-ui,
-  /plush-ui, "in the style of" this farm / turnip / yam UI, soft mascot
-  interface, or 2020 DeFi farm look.
+  Build product UI in Turnip UI, the DeFi Summer farm language: cool-gray
+  canvas, Nunito extra-bold, 3D mascot heroes, magenta pill CTAs, cream
+  selection cards, whisper borders, centered 920px column. The look of
+  SushiSwap dishes and Yam.finance. Use when the user says turnip-ui,
+  /turnip-ui, DeFi Summer UI, Yam.finance, SushiSwap dishes, or "in the
+  style of" this farm / turnip UI.
 ---
 
-# Plush UI
+# Turnip UI
 
 Self-contained. Do not look up DESIGN.md or any other spec. Everything needed to build is in this file.
 
-Soft 2020 farm-app language. Centered mascot, extra-bold round sans, one magenta CTA, lots of air. Product screens, not marketing landers. Brand-agnostic: swap the mascot and the word, keep the chrome. Do not rebuild the Turnip farm unless the user asked for that product.
+DeFi Summer chrome, as seen on SushiSwap's dish picker and Yam.finance's farm and user pages. Centered mascot, extra-bold round sans, one magenta CTA, lots of air. Product screens, not marketing landers. Swap the mascot and the word, keep the chrome. Do not rebuild the Turnip farm unless the user asked for that product.
 
 Density 5. Variance 3. Motion 4.
 

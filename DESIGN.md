@@ -1,8 +1,8 @@
-# Plush UI
+# Turnip UI
 
 Standalone visual spec. Apply this file by itself.
 
-Soft 2020 farm-app language. Centered mascot, extra-bold round sans, one magenta CTA, lots of air. Product screens, not marketing landers. Brand-agnostic: swap the mascot and the word, keep the chrome.
+DeFi Summer chrome, as seen on SushiSwap's dish picker and Yam.finance's farm and user pages. Centered mascot, extra-bold round sans, one magenta CTA, lots of air. Product screens, not marketing landers. Swap the mascot and the word, keep the chrome.
 
 Density 5. Variance 3. Motion 4.
 
