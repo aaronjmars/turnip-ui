@@ -47,14 +47,27 @@ curl -fsSL https://raw.githubusercontent.com/aaronjmars/turnip-ui/main/skill/SKI
   -o ~/.claude/skills/turnip-ui/SKILL.md
 ```
 
-From a local clone, copy instead of curl:
+**Codex**
+
+Personal skills live at `~/.codex/skills/<name>/SKILL.md`. Project skills live at `.codex/skills/<name>/SKILL.md` in a repo.
 
 ```bash
-mkdir -p ~/.grok/skills/turnip-ui
-cp skill/SKILL.md ~/.grok/skills/turnip-ui/SKILL.md
+mkdir -p ~/.codex/skills/turnip-ui
+curl -fsSL https://raw.githubusercontent.com/aaronjmars/turnip-ui/main/skill/SKILL.md \
+  -o ~/.codex/skills/turnip-ui/SKILL.md
 ```
 
-Then say `/turnip-ui` or "build a settings page in turnip-ui style".
+Start a new Codex session. Invoke with `$turnip-ui` or pick it from `/skills`. Codex also matches the skill from the description when you ask for DeFi Summer / Yam.finance / SushiSwap-style UI.
+
+From a local clone, copy instead of curl (swap the dest):
+
+```bash
+cp skill/SKILL.md ~/.grok/skills/turnip-ui/SKILL.md
+cp skill/SKILL.md ~/.claude/skills/turnip-ui/SKILL.md
+cp skill/SKILL.md ~/.codex/skills/turnip-ui/SKILL.md
+```
+
+Then say `/turnip-ui` (Grok, Claude) or `$turnip-ui` (Codex), or "build a settings page in turnip-ui style".
 
 ## Use DESIGN.md instead
 
