@@ -9,7 +9,7 @@ import {
 } from 'react'
 import { FARMS, type FarmId } from '../data/farms'
 
-export const MOCK_ADDRESS = '0x0000000000000000000000000000000000001acf'
+export const MOCK_ADDRESS = '0x1111111111111111111111111111111111111111'
 
 export type Toast = { id: number; text: string }
 
@@ -78,7 +78,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
     const saved = localStorage.getItem('theme-pref')
     return saved === 'dark' ? 'dark' : 'light'
   })
-  const [connected, setConnected] = useState(true)
+  const [connected, setConnected] = useState(false)
   const [positions, setPositions] = useState<Positions>(emptyPositions)
   const [tokenBal, setTokenBal] = useState(0)
   const [tokenV2] = useState(0)
