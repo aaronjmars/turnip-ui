@@ -9,7 +9,7 @@ description: >
   style of" this farm / turnip UI.
 ---
 
-# Turnip UI
+# Turnip UI: DeFi Summer farm chrome from SushiSwap and Yam.finance
 
 Self-contained. Do not look up DESIGN.md or any other spec. Everything needed to build is in this file.
 

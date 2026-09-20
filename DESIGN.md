@@ -1,4 +1,4 @@
-# Turnip UI
+# Turnip UI: DeFi Summer farm chrome from SushiSwap and Yam.finance
 
 Standalone visual spec. Apply this file by itself.
 

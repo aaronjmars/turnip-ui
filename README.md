@@ -1,6 +1,6 @@
-# Turnip
+# Turnip UI: DeFi Summer farm chrome from SushiSwap and Yam.finance
 
-DeFi Summer UI. Cool gray canvas, extra-bold Nunito, 3D food mascots, magenta pills.
+Cool gray canvas, extra-bold Nunito, 3D food mascots, magenta pills.
 
 Summer 2020 yield apps looked like this. SushiSwap's dish picker ("Select Your Favorite Dishes") and Yam.finance's farm and user pages set the chrome: a centered mascot, round sans, cream selection cards, and one loud CTA. Turnip restates that look as a demo site.
 
