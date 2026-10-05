@@ -27,6 +27,10 @@ npm run dev
 
 Then open the local URL Vite prints.
 
+Other scripts: `npm run build` (type check + production build), `npm run preview`, `npm run lint` (oxlint).
+
+The site is a front-end demo only: React 19, Vite, React Router. Wallet connect, staking and rewards are local mock state (no chain, no network calls). Pages: dashboard (`/`), farm (`/farm/:id`), your page (`/user`), govern (`/govern`), redemption (`/redemption`).
+
 ## Install the skill
 
 The skill is named `turnip-ui`. It is self-contained. Copy `skill/SKILL.md` into your agent skills folder.
